@@ -1,0 +1,122 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949c"
+    },
+    "name": "تيشيرت رجالي",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "تيشيرتات رجالي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949d"
+    },
+    "name": "بنطلون رجالي",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "بناطيل رجالي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949e"
+    },
+    "name": "هوديز رجالي",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "هوديز وسويت شيرت رجالي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949f"
+    },
+    "name": "تيشيرت حريمي",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "تيشيرتات حريمي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a0"
+    },
+    "name": "بنطلون حريمي",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "بناطيل حريمي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a1"
+    },
+    "name": "فستان",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "فساتين كاجوال",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

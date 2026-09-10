@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b6"
+    },
+    "user": {
+      "$oid": "6aa27284a73d133599119499"
+    },
+    "name": "أحمد سمير",
+    "message": "الشحن كان سريع والخامة ممتازة، هطلب تاني أكيد.",
+    "status": "approved",
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b7"
+    },
+    "user": {
+      "$oid": "6aa27284a73d133599119499"
+    },
+    "name": "مريم عادل",
+    "message": "الفستان زي الصورة بالظبط والمقاس مظبوط جدًا.",
+    "status": "approved",
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

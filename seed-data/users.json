@@ -1,0 +1,20 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d133599119499"
+    },
+    "name": "Mohamed",
+    "username": "mohamed",
+    "email": "mohamed@admin.local",
+    "password": "$2b$10$VrUKw2GqHK645CjApmspcu7eX7C0WaOa3vzA6dKYQsLQtWuC9zBWe",
+    "role": "admin",
+    "isBlocked": false,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.600Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

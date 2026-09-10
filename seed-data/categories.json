@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "name": "رجالي",
+    "description": "ملابس رجالي شبابي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "name": "حريمي",
+    "description": "ملابس حريمي شبابي",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "__v": 0
+  }
+]
