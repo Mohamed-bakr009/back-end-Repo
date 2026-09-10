@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b6"
+    },
+    "user": {
+      "$oid": "6aa27284a73d133599119499"
+    },
+    "name": "Ahmed Samir",
+    "message": "The shipping was fast and the quality was excellent. I will definitely order again.",
+    "status": "approved",
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b7"
+    },
+    "user": {
+      "$oid": "6aa27284a73d133599119499"
+    },
+    "name": "Mariam Adel",
+    "message": "The dress looks exactly like the picture, and the size fits perfectly.",
+    "status": "approved",
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

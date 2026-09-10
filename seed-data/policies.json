@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a5"
+    },
+    "type": "shipping",
+    "title": "Shipping Policy",
+    "content": "Orders are shipped within 2-5 business days within Egypt. Cash on delivery is the only available payment method.",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a6"
+    },
+    "type": "return",
+    "title": "Return Policy",
+    "content": "Products can be returned or exchanged within 14 days from the delivery date, provided that the product is in its original condition.",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a7"
+    },
+    "type": "privacy",
+    "title": "Privacy Policy",
+    "content": "We respect our customers' privacy and do not share their personal data with any third party except when required for shipping purposes.",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a8"
+    },
+    "type": "terms",
+    "title": "Terms and Conditions",
+    "content": "By using this website, you agree to our purchasing and cash-on-delivery terms and agree to comply with our return policy.",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a9"
+    },
+    "type": "about",
+    "title": "About Us",
+    "content": "A youth clothing store offering men's and women's fashion for customers aged 18 to 35. We started as a Facebook page and are proud to serve our customers with the best quality and prices.",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

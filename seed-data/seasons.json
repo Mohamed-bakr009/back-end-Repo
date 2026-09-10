@@ -1,0 +1,19 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "name": "All Seasons",
+    "description": "Products available throughout the year",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

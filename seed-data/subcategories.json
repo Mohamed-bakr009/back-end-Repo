@@ -1,0 +1,122 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949c"
+    },
+    "name": "Men's T-Shirts",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "Men's T-Shirts",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949d"
+    },
+    "name": "Men's Pants",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "Men's Pants",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949e"
+    },
+    "name": "Men's Hoodies",
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "description": "Men's Hoodies and Sweatshirts",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949f"
+    },
+    "name": "Women's T-Shirts",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "Women's T-Shirts",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a0"
+    },
+    "name": "Women's Pants",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "Women's Pants",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194a1"
+    },
+    "name": "Dresses",
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "description": "Casual Dresses",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "name": "Men",
+    "description": "Young men's clothing",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "name": "Women",
+    "description": "Young women's clothing",
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "__v": 0
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194aa"
+    },
+    "name": "White Oversized T-Shirt",
+    "description": "White oversized T-shirt made from high-quality cotton, suitable for everyday wear.",
+    "price": 250,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/MEN-TS-001/600/700"
+    ],
+    "sku": "MEN-TS-001",
+    "slug": "white-oversized-t-shirt",
+    "stock": 30,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949c"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194ab"
+    },
+    "name": "Black Oversized T-Shirt",
+    "description": "Black oversized T-shirt made from high-quality cotton, suitable for everyday wear.",
+    "price": 250,
+    "discountPrice": 199,
+    "images": [
+      "https://picsum.photos/seed/MEN-TS-002/600/700"
+    ],
+    "sku": "MEN-TS-002",
+    "slug": "black-oversized-t-shirt",
+    "stock": 25,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949c"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194ac"
+    },
+    "name": "Beige Cargo Pants",
+    "description": "Beige cargo pants made from high-quality cotton, suitable for everyday wear.",
+    "price": 450,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/MEN-PT-001/600/700"
+    ],
+    "sku": "MEN-PT-001",
+    "slug": "beige-cargo-pants",
+    "stock": 20,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949d"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194ad"
+    },
+    "name": "Blue Jeans",
+    "description": "Blue jeans made from high-quality cotton, suitable for everyday wear.",
+    "price": 480,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/MEN-PT-002/600/700"
+    ],
+    "sku": "MEN-PT-002",
+    "slug": "blue-jeans",
+    "stock": 15,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949d"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194ae"
+    },
+    "name": "Gray Hoodie",
+    "description": "Gray hoodie made from high-quality cotton, suitable for everyday wear.",
+    "price": 550,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/MEN-HD-001/600/700"
+    ],
+    "sku": "MEN-HD-001",
+    "slug": "gray-hoodie",
+    "stock": 18,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949e"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194af"
+    },
+    "name": "Black Printed Hoodie",
+    "description": "Black printed hoodie made from high-quality cotton, suitable for everyday wear.",
+    "price": 600,
+    "discountPrice": 499,
+    "images": [
+      "https://picsum.photos/seed/MEN-HD-002/600/700"
+    ],
+    "sku": "MEN-HD-002",
+    "slug": "black-printed-hoodie",
+    "stock": 0,
+    "category": {
+      "$oid": "6aa27284a73d13359911949a"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949e"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b0"
+    },
+    "name": "Pink Crop T-Shirt",
+    "description": "Pink crop T-shirt made from high-quality cotton, suitable for everyday wear.",
+    "price": 220,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/WMN-TS-001/600/700"
+    ],
+    "sku": "WMN-TS-001",
+    "slug": "pink-crop-t-shirt",
+    "stock": 28,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949f"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b1"
+    },
+    "name": "Women's Basic White T-Shirt",
+    "description": "Women's basic white T-shirt made from high-quality cotton, suitable for everyday wear.",
+    "price": 210,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/WMN-TS-002/600/700"
+    ],
+    "sku": "WMN-TS-002",
+    "slug": "womens-basic-white-t-shirt",
+    "stock": 22,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d13359911949f"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b2"
+    },
+    "name": "Khaki Wide-Leg Pants",
+    "description": "Khaki wide-leg pants made from high-quality cotton, suitable for everyday wear.",
+    "price": 420,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/WMN-PT-001/600/700"
+    ],
+    "sku": "WMN-PT-001",
+    "slug": "khaki-wide-leg-pants",
+    "stock": 16,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d1335991194a0"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T09:04:04.601Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b3"
+    },
+    "name": "Black Leggings",
+    "description": "Black leggings made from high-quality cotton, suitable for everyday wear.",
+    "price": 300,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/WMN-PT-002/600/700"
+    ],
+    "sku": "WMN-PT-002",
+    "slug": "black-leggings",
+    "stock": 24,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d1335991194a0"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b4"
+    },
+    "name": "Casual Summer Dress",
+    "description": "Casual summer dress made from high-quality cotton, suitable for everyday wear.",
+    "price": 520,
+    "discountPrice": null,
+    "images": [
+      "https://picsum.photos/seed/WMN-DR-001/600/700"
+    ],
+    "sku": "WMN-DR-001",
+    "slug": "casual-summer-dress",
+    "stock": 12,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d1335991194a1"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null
+  },
+  {
+    "_id": {
+      "$oid": "6aa27284a73d1335991194b5"
+    },
+    "name": "Sweatshirt Dress",
+    "description": "Sweatshirt dress made from high-quality cotton, suitable for everyday wear.",
+    "price": 480,
+    "discountPrice": 420,
+    "images": [
+      "https://picsum.photos/seed/WMN-DR-002/600/700"
+    ],
+    "sku": "WMN-DR-002",
+    "slug": "sweatshirt-dress",
+    "stock": 10,
+    "category": {
+      "$oid": "6aa27284a73d13359911949b"
+    },
+    "subcategory": {
+      "$oid": "6aa27284a73d1335991194a1"
+    },
+    "season": {
+      "$oid": "6aa27284a73d1335991194a2"
+    },
+    "isActive": true,
+    "isDeleted": false,
+    "deletedAt": null
+  }
+]
