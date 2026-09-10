@@ -1,0 +1,11 @@
+const express = require("express");
+const controls = require("../controller/testimonial.controller");
+const auth = require("../middleware/auth.middleware");
+const admin = require("../middleware/role.middleware");
+const router = express.Router();
+router.get("/", controls.getApproved);
+router.post("/create", auth, controls.create);
+router.get("/admin/all", auth, admin("admin"), controls.getAll);
+router.patch("/:id/status", auth, admin("admin"), controls.updateStatus);
+router.patch("/:id/delete", auth, admin("admin"), controls.remove);
+module.exports = router;

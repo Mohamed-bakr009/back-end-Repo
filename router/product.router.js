@@ -1,0 +1,17 @@
+const express = require("express");
+const controls = require("../controller/product.controller");
+const auth = require("../middleware/auth.middleware");
+const admin = require("../middleware/role.middleware");
+const router = express.Router();
+router.get("/", controls.getProducts);
+router.get("/new-arrivals", controls.getNewArrivals);
+router.get("/top-sellers", controls.getTopSellers);
+router.get("/admin/all", auth, admin("admin"), controls.getAllProducts);
+router.get("/slug/:slug", controls.getProductBySlug);
+router.get("/:id", controls.getProduct);
+router.post("/create", auth, admin("admin"), controls.createProduct);
+router.patch("/update/:id", auth, admin("admin"), controls.updateProduct);
+router.patch("/delete/:id", auth, admin("admin"), controls.deleteProduct);
+router.patch("/restore/:id", auth, admin("admin"), controls.restoreProduct);
+router.patch("/status/:id", auth, admin("admin"), controls.toggleProductStatus);
+module.exports = router;

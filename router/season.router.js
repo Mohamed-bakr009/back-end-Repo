@@ -1,0 +1,13 @@
+const express = require("express");
+const controls = require("../controller/season.controller");
+const auth = require("../middleware/auth.middleware");
+const admin = require("../middleware/role.middleware");
+const router = express.Router();
+router.get("/", controls.getSeasons);
+router.get("/:id", controls.getSeason);
+router.post("/create", auth, admin("admin"), controls.createSeason);
+router.patch("/update/:id", auth, admin("admin"), controls.updateSeason);
+router.patch("/delete/:id", auth, admin("admin"), controls.deleteSeason);
+router.patch("/restore/:id", auth, admin("admin"), controls.restoreSeason);
+router.patch("/status/:id", auth, admin("admin"), controls.toggleSeasonStatus);
+module.exports = router;

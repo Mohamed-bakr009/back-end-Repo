@@ -1,0 +1,15 @@
+const express = require("express");
+const controls = require("../controller/order.controller");
+const auth = require("../middleware/auth.middleware");
+const admin = require("../middleware/role.middleware");
+const router = express.Router();
+router.use(auth);
+router.post("/create", controls.createOrder);
+router.get("/my", controls.getMyOrders);
+router.get("/my/:id", controls.getMyOrder);
+router.patch("/:id/cancel", controls.cancelOrder);
+router.patch("/:id/refund", controls.requestRefund);
+router.get("/", admin("admin"), controls.getOrders);
+router.patch("/:id/status", admin("admin"), controls.updateStatus);
+router.patch("/:id/refund/process", admin("admin"), controls.processRefund);
+module.exports = router;

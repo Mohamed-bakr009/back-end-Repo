@@ -1,0 +1,10 @@
+const express = require("express");
+const controls = require("../controller/notification.controller");
+const auth = require("../middleware/auth.middleware");
+const router = express.Router();
+router.use(auth);
+router.get("/", controls.getMine);
+router.get("/unread-count", controls.unreadCount);
+router.patch("/:id/read", controls.markRead);
+router.patch("/read-all", controls.markAllRead);
+module.exports = router;

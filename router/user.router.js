@@ -1,0 +1,10 @@
+const express = require("express");
+const controls = require("../controller/user.controller");
+const auth = require("../middleware/auth.middleware");
+const allowRoles = require("../middleware/role.middleware");
+const router = express.Router();
+router.get("/", auth, allowRoles("admin"), controls.getUsers);
+router.get("/:id", auth, allowRoles("admin"), controls.getUser);
+router.patch("/:id", auth, controls.updateUser);
+router.patch("/:id/block", auth, allowRoles("admin"), controls.toggleBlock);
+module.exports = router;

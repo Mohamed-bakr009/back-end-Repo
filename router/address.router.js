@@ -1,0 +1,12 @@
+const express = require("express");
+const controls = require("../controller/address.controller");
+const auth = require("../middleware/auth.middleware");
+const router = express.Router();
+router.use(auth);
+router.post("/create", controls.createAddress);
+router.get("/", controls.getUserAddresses);
+router.get("/:id", controls.getAddress);
+router.patch("/update/:id", controls.updateAddress);
+router.patch("/delete/:id", controls.deleteAddress);
+router.patch("/default/:id", controls.setDefaultAddress);
+module.exports = router;

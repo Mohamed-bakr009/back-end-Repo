@@ -1,0 +1,13 @@
+const express = require("express");
+const controls = require("../controller/shippingFee.controller");
+const auth = require("../middleware/auth.middleware");
+const admin = require("../middleware/role.middleware");
+const router = express.Router();
+router.get("/", controls.getAll);
+router.get("/:id", controls.getOne);
+router.post("/create", auth, admin("admin"), controls.create);
+router.patch("/update/:id", auth, admin("admin"), controls.update);
+router.patch("/delete/:id", auth, admin("admin"), controls.remove);
+router.patch("/restore/:id", auth, admin("admin"), controls.restore);
+router.patch("/status/:id", auth, admin("admin"), controls.status);
+module.exports = router;
